@@ -30,7 +30,10 @@ int main() {
     std::string IVER = "oliver@martinez.com";
     std::string LIAM = "liam@smith.com";
     std::string IVIA = "olivia@williams.com";
-    
+    std::string KOAH = "koah@kills.com";
+    std::string PONY = "pony@creative.com";
+    std::string NIET = "nietzsche@friedrich.com";
+    std::string FOUC = "michel@foucault.com"
 
     snetwork.addProfile("noah", "brown", NOAH);
     snetwork.addProfile("emma", "johnson", EMMA);
@@ -50,15 +53,17 @@ int main() {
     
     snetwork.makeFriends(NOAH,LIAM);
     snetwork.makeFriends(NOAH, EMMA);
-    snetwork.addProfile("noah", "brown", NOAH);
-    snetwork.addProfile("emma", "johnson", EMMA);
-    snetwork.addProfile("oliver", "martinez", IVER);
+    snetwork.addProfile("koah", "kills", KOAH);
+    snetwork.addProfile("pony", "creative", PONY);
+    snetwork.addProfile("friedrich", "nietzsche", NIET);
     snetwork.makeFriends(IVIA,EMMA);
     snetwork.makeFriends(IVER,EMMA);
-    snetwork.addPost("Hello! My name is liam smith.", LIAM);
-    snetwork.addPost("Hello! My name is olivia williams.", IVIA);
-    snetwork.addPost("Hello! My name is noah brown.", NOAH);
-    snetwork.addPost("Hello! My name is emma johnson.", EMMA);
+    snetwork.addPost("He who has a why to live can bear almost any how.", NIET);
+    snetwork.addPost("Without music, life would be a mistake.", NIET);
+    snetwork.addPost("In heaven, all the interesting people are missing.", NIET);
+    snetwork.addProfile("michel", "foucault", FOUT);
+    snetwork.addPost("Schools serve the same social functions as prisons and mental institutions- to define, classify, control, and regulate people.", FOUT);
+    snetwork.addPost("?", NIET);
     snetwork.makeFriends(IVIA,LIAM);
     snetwork.print();
     printPtr(snetwork.getMutualFriends("liam@smith.com", "emma@johnson.com"));
