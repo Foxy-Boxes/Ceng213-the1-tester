@@ -1,0 +1,19 @@
+Printing in Order
+std  string  is  somewhat  tricky  hope  you  
+Printing in Reverse
+you  hope  tricky  somewhat  is  string  std  
+Should Not Have : tricky
+Printing in Order
+std  string  is  somewhat  hope  you  
+Should Not Have : string
+Printing in Order
+std  is  somewhat  hope  you  
+Printing in Order
+std  is  somewhat  hope  you  
+Should Not Have : std
+Printing in Order
+is  somewhat  hope  you  
+Printing in Order
+one  this  got  is  somewhat  hope  you  
+Printing in Order
+one  this  got  is  somewhat  hope  you  

@@ -16,16 +16,16 @@ ulimit -c unlimited
 make test
 ```
 
-This should test your code. You wont see any output. You should check diff files to see whether you have any difference, if they are empty you're good.
+This should test your code. You wont see any output(you may see a makefile error). You should check diff files to see whether you have any difference, if they are empty you're good.
 
 If they are not matching you have a fail -or I am stupid-. 
 
 If you see an error with (core dumped) find your core(which was dumped). Find the test that is causing the error by Makefile err line number.
 
-For example if line number is 18 ctest2 is causing the error:
+For example if line number is 21 ctest2 is causing the error:
 ```shell
 Segmentation fault
-make: *** [Makefile:18: out] Error 139
+make: *** [Makefile:21: out] Error 139
 ```
 
 Now to debug, use:
