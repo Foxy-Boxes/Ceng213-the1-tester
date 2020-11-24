@@ -9,6 +9,7 @@ socialnetwork:
 	$(CC) $(CFLAGSNETWORK) test9.cpp -o test9.out 
 	$(CC) $(CFLAGSNETWORK) customtest1SN.cpp -o ctest1.out 
 	$(CC) $(CFLAGSNETWORK) customtest2SN.cpp -o ctest2.out
+.PHONY: out
 out:
 	./test8.out > out/8.txt
 	./test6.out > out/6.txt
