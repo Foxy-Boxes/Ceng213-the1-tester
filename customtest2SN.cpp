@@ -33,7 +33,7 @@ int main() {
     std::string KOAH = "koah@kills.com";
     std::string PONY = "pony@creative.com";
     std::string NIET = "nietzsche@friedrich.com";
-    std::string FOUC = "michel@foucault.com"
+    std::string FOUC = "michel@foucault.com";
 
     snetwork.addProfile("noah", "brown", NOAH);
     snetwork.addProfile("emma", "johnson", EMMA);
@@ -61,8 +61,8 @@ int main() {
     snetwork.addPost("He who has a why to live can bear almost any how.", NIET);
     snetwork.addPost("Without music, life would be a mistake.", NIET);
     snetwork.addPost("In heaven, all the interesting people are missing.", NIET);
-    snetwork.addProfile("michel", "foucault", FOUT);
-    snetwork.addPost("Schools serve the same social functions as prisons and mental institutions- to define, classify, control, and regulate people.", FOUT);
+    snetwork.addProfile("michel", "foucault", FOUC);
+    snetwork.addPost("Schools serve the same social functions as prisons and mental institutions- to define, classify, control, and regulate people.", FOUC);
     snetwork.addPost("?", NIET);
     snetwork.makeFriends(IVIA,LIAM);
     snetwork.print();
@@ -84,4 +84,3 @@ int main() {
 
     return 0;
 }
-
