@@ -16,7 +16,7 @@ ulimit -c unlimited
 make test
 ```
 
-This should test your code. You wont see any output. You should check diff files to see whether you have any difference, if they are empty you're good.
+This should test your code. You wont see any output(you may see a makefile error). You should check diff files to see whether you have any difference, if they are empty you're good.
 
 If they are not matching you have a fail -or I am stupid-. 
 
