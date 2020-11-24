@@ -1,0 +1,75 @@
+# Printing the social network ...
+# Number of profiles is 0:
+Printing the linked list ...
+empty
+# Number of posts is 0:
+Printing the linked list ...
+empty
+# Printing is done.
+
+
+
+
+
+
+
+
+
+
+# Printing the social network ...
+# Number of profiles is 5:
+Printing the linked list ...
+firstname: noah lastname: brown email: noah@brown.com friends: [] likes: [] posts: [3]
+firstname: emma lastname: johnson email: emma@johnson.com friends: [] likes: [] posts: [4]
+firstname: oliver lastname: martinez email: oliver@martinez.com friends: [] likes: [] posts: [5]
+firstname: liam lastname: smith email: liam@smith.com friends: [] likes: [] posts: [1]
+firstname: olivia lastname: williams email: olivia@williams.com friends: [] likes: [] posts: [2]
+# Number of posts is 5:
+Printing the linked list ...
+message: Hello! My name is liam smith. postId: 1
+message: Hello! My name is olivia williams. postId: 2
+message: Hello! My name is noah brown. postId: 3
+message: Hello! My name is emma johnson. postId: 4
+message: Hello! My name is oliver martinez. postId: 5
+# Printing is done.
+
+
+
+
+
+# Printing the social network ...
+# Number of profiles is 5:
+Printing the linked list ...
+firstname: noah lastname: brown email: noah@brown.com friends: [liam@smith.com, emma@johnson.com] likes: [] posts: [3]
+firstname: emma lastname: johnson email: emma@johnson.com friends: [noah@brown.com, olivia@williams.com, oliver@martinez.com] likes: [] posts: [4]
+firstname: oliver lastname: martinez email: oliver@martinez.com friends: [emma@johnson.com] likes: [] posts: [5]
+firstname: liam lastname: smith email: liam@smith.com friends: [noah@brown.com, olivia@williams.com] likes: [] posts: [1]
+firstname: olivia lastname: williams email: olivia@williams.com friends: [emma@johnson.com, liam@smith.com] likes: [] posts: [2]
+# Number of posts is 5:
+Printing the linked list ...
+message: Hello! My name is liam smith. postId: 1
+message: Hello! My name is olivia williams. postId: 2
+message: Hello! My name is noah brown. postId: 3
+message: Hello! My name is emma johnson. postId: 4
+message: Hello! My name is oliver martinez. postId: 5
+# Printing is done.
+
+
+Printing in Order
+firstname: noah lastname: brown email: noah@brown.com friends: [liam@smith.com, emma@johnson.com] likes: [] posts: [3]  firstname: olivia lastname: williams email: olivia@williams.com friends: [emma@johnson.com, liam@smith.com] likes: [] posts: [2]  
+# Printing the social network ...
+# Number of profiles is 5:
+Printing the linked list ...
+firstname: noah lastname: brown email: noah@brown.com friends: [liam@smith.com, emma@johnson.com] likes: [] posts: [3]
+firstname: emma lastname: johnson email: emma@johnson.com friends: [noah@brown.com, olivia@williams.com, oliver@martinez.com] likes: [] posts: [4]
+firstname: oliver lastname: martinez email: oliver@martinez.com friends: [emma@johnson.com] likes: [] posts: [5]
+firstname: liam lastname: smith email: liam@smith.com friends: [noah@brown.com, olivia@williams.com] likes: [] posts: [1]
+firstname: olivia lastname: williams email: olivia@williams.com friends: [emma@johnson.com, liam@smith.com] likes: [] posts: [2]
+# Number of posts is 5:
+Printing the linked list ...
+message: Hello! My name is liam smith. postId: 1
+message: Hello! My name is olivia williams. postId: 2
+message: Hello! My name is noah brown. postId: 3
+message: Hello! My name is emma johnson. postId: 4
+message: Hello! My name is oliver martinez. postId: 5
+# Printing is done.
